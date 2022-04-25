@@ -17,12 +17,8 @@
   }
   
   /* TODO: make pieces red/blue,  depending on player 1/2 piece */
-  .p1 {
+  .player {
     background-color: red;
-  }
-
-  .p2 {
-    background-color: blue;
   }
   
   /* column-top is table row of clickable areas for each column */
@@ -33,5 +29,12 @@
   
   #column-top td:hover {
     background-color: gold;
+  }
+
+  #play-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
